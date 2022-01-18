@@ -8,7 +8,7 @@ import ForgotPass from '../components/ForgotPass';
 export default function Screen() {
 
   return (
-    <View>
+    <>
       <MyInput
         placeholderText = "Enter your email..."
       />
@@ -17,13 +17,15 @@ export default function Screen() {
         visibility = {true}
       />
       <ForgotPass/>
+    
       <LoginButton 
         title = "LOGIN"
       />
+  
       <SignupButton
         title = "SIGNUP"
       />
-    </View>
+    </>
   );
 }
 

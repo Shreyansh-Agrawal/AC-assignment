@@ -11,7 +11,7 @@ export default function LoginButton(props) {
 
 const styles = StyleSheet.create({
   loginBtn: {
-    width: 350,
+    width: '80%',
     backgroundColor: '#fb5b5a',
     borderRadius: 25,
     height: 50,
